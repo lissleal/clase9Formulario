@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Karla:ital,wght@0,400;1,700&display=swap');
+
+form{
+    border-radius: 30px;
+background: #00669F;
+box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.30);
+min-width: 50vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+margin: 30px;
+padding: 10px 80px;
+gap: 20px;
+}
+
+.tituloForm {
+    color: #FBFFFD;
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+margin: 0;
+}
+
+.subTituloForm {
+    font-size: 20px;
+}
+
+.formularioInterno{
+    display: flex;
+    flex-direction: columns;
+    gap: 20px;
+}
+
+.formDivision {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.label {
+    color: #FFF;
+text-align: start;
+font-family: Inter;
+font-size: 20px;
+
+}
+
+.entradaForm {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.input {
+    border-radius: 5px;
+    border: 1.5px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    height: 60px;
+    width: 340px;
+}
+
+.inputFoto {
+    margin: 20px 0 10px 0;
+}
+
+.opciones {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.line {
+    border-bottom: solid 1px white;
+    padding-bottom: 20px;
+}
+
+textarea {
+    border-radius: 5px;
+    background-color: white;
+    color:rgba(0, 0, 0, 0.50);
+    padding: 20px;
+    height: 260px;
+}
+
+.boton {
+    width: 400px;
+height: 60px;
+border-radius: 10px;
+background: #1CD1B0;
+color: black;
+font-size: 25px;
+font-weight: 700;
+}

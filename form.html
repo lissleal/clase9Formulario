@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heroes</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <p class="titulo1">20% de descuento en todos los productos!
+      </p>
+      <div class="nav2">
+        <img src="./img/logo.jpeg" alt="" class="logo">
+        <a href="./index.html"><h1>Tienda de Superheroes</h1></a>
+
+      </div>
+      <ul class="nav">
+        <a href="./form.html"><li >Contacto</li></a>
+        <a href="./form.html"><li>Registrame</li></a> 
+        <a href="./form.html"><li>Ingresar</li></a>     
+      </ul>
+    </header>
+    <main>
+      <form action="">
+        <h2 class="tituloForm">Añadí tu super!</h2>
+        <p class="subTituloForm">Agregá tu personaje favorito completando las opciones.</p>
+        <div class="formularioInterno">
+          <div class="formDivision">
+            <p class="entradaForm">
+            <label for="nombre" class="label">
+                  *Nombre
+              </label>
+              <input type="text" id="nombre" name="nombre" class="input"/>
+            </p>
+            <p class="entradaForm">
+              <label for="fecha" class="label">
+                  Fecha
+              </label>
+              <input type="date" id="fecha" name="fecha" class="input"/>
+            </p>
+            <textarea name="" id="">Mega visión, supermente, corazón ultra grande, supersonrisa, superoído, supermanos codeadoras.</textarea>        
+          </div>
+          <div class="formDivision">
+            <p class="entradaForm">
+              <label for="especie" class="label">
+                  *Especie     
+              </label>
+              <select id="especie" name="nombre" class="input">
+                <option value="">Especie</option>
+              </select>
+            </p>
+            <p class="entradaForm"> 
+              <label for="foto" class="label">
+                  Agregar Foto
+              </label>
+              <input type="file" id="foto" name="foto" class="inputFoto"/>
+            <div class="opciones line">
+                <h3 class="label">Poderes</h3>
+                <label for="">
+                <input type="checkbox" name="poderes" values="volar"/>
+                Volar</label>
+                <label for="">
+                <input type="checkbox" name="poderes" values="superinteligencia"/>
+                superinteligencia</label>
+                <label for="">
+                <input type="checkbox" name="poderes" values="laser"/>
+                Vista de rayo láser</label>
+                <label for="">
+                <input type="checkbox" name="poderes" values="billetera"/>
+                Billetera gorda</label>
+               </div>
+                <div class="opciones">
+                  <h3 class="label">Tipo de personaje</h3>
+                  <label for="personaje">
+                  <input type="radio" name="personaje" values="heroe"/>
+                  Héroe / Heroina</label>
+                  <label for="personaje">
+                  <input type="radio" name="personaje" values="villano"/>
+                  Villano / Villana</label>
+                </div>
+            </p>
+          </div>
+        </div>     
+        <input type="submit" value="Añadir" class="boton">
+      </form>
+    </main>
+    <footer>
+      <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+  </body>
+</html>
